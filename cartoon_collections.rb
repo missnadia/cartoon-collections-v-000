@@ -30,5 +30,4 @@ def find_the_cheese(strings)
   if strings.include?(true)
     string
   end
-
 end
