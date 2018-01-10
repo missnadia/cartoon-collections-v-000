@@ -15,10 +15,10 @@ def long_planeteer_calls(calls)
     call.length > 4
   end
 
-  if calls.include?(false)
-    false
-  else
+  if calls.include?(true)
     true
+  else
+    false
   end
 end
 
